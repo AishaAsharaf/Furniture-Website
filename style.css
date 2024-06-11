@@ -1,0 +1,182 @@
+*{margin: 0px;
+padding: 0px;}
+
+:root{--brown:rgb(126, 34, 34)
+}
+
+#logo{width:100%;
+    height: 100px;}
+
+ul li{font-size:25px ;}
+
+#but1{border:2px solid rgb(126, 34, 34);
+      padding:17px;}
+
+#but1:hover {background-color:rgb(126, 34, 34);
+             color:white ;
+             font-weight: 500;}
+
+@media(min-width:992px){
+     ul{display: flex;
+      align-items:center;}
+    
+    }
+
+@media(max-width:992px){
+    #icon{visibility: hidden;}
+}
+
+.main{background-image:url(https://bondars.com/wp-content/uploads/2018/10/modern-furniture.jpg) ;
+          background-repeat: no-repeat;
+          background-size: cover;
+          width:100% ;
+          height:100vh;
+          background-attachment: fixed;
+}
+
+.main h1{color: aliceblue;
+         font-size:100px;
+        font-weight: 500;}
+
+.main h3{color: aliceblue;
+         font-size: 40px;
+        font-weight: 500;}
+
+#head{padding:50px ;
+      align-items: center;
+      justify-content:center;
+      padding-top:290px ;
+      margin-left:50px ;
+      }
+
+#but2{size:160px ;
+      margin-top:70px ;
+      font-size:20px ;
+      }
+
+@media(max-width:992px){
+    
+    .main h1 {font-size:60px}
+    .main h3 {font-size:20px}
+    #head{margin-left:5px ;}
+    #but2{size:60px;
+          font-size:20px ;}
+    
+
+}
+
+@media(max-width:992px){
+     #head button{margin-top:20px}
+     #head h3{margin-top:-50px ;}
+}
+
+#bg{background-color: rgba(0, 0, 0, 0.587);
+   background-repeat:no-repeat ;
+   height:100vh ;}
+
+
+.bg2{background-image: url(https://st.depositphotos.com/3008028/3751/i/450/depositphotos_37511817-stock-photo-abstract-pale-background.jpg);
+opacity:1 ;
+}
+
+
+#work h1{text-align:center ;
+         padding-top:80px ;
+         margin-bottom:80px ;
+         font-size:45px ;}
+
+.row{padding-left:70px ;
+     padding-bottom:70px ;}
+
+.card-body{background-color: whitesmoke;}
+
+.card-body button{border-color:var(--brown) ;
+color:var(--brown);}
+
+.redBTN:hover{color:#fff ;
+                        background-color: var(--brown);}
+.about{background-color: rgb(248, 239, 234);}
+
+.row{padding:50px 0px ;
+    margin-left:100px ;}
+
+.line{width:120px;
+     color: var(--brown);
+     height:2px ;
+     border:2px solid  var(--brown) ;
+ }
+
+
+.image{border:6px solid var(--brown);
+      height:460px ;
+      padding-top:6% ;
+      padding-left:6% ;
+     width:100% ;}
+
+
+.borred{transform: translate(-50px);
+        width: 100%;}
+
+@media(max-width: 992px){
+      .image{height:auto ;
+             padding-top:20% ;
+             display:block ;
+            }
+       .spara{padding-top:20px ;}
+
+      }
+
+.projimage{position: relative;
+          width:100% ;
+         height:100% ;}
+.projimg2{position: relative;
+            width:100% ;
+           height:100% ;}
+.projimg3{position: relative;
+            width:100% ;
+           height:100% ;
+          }
+@media(max-width:992px){
+      .row{margin-left:10px ;
+            }
+}
+
+.but3{border-color:var(--brown);
+      color:var(--brown);
+      
+      scale:2 ;
+      margin-bottom:100px;
+      margin-top:50px ;}
+
+.but3:hover{color:#fff ;
+            background-color: var(--brown);}
+
+.but34{text-align: center;}
+
+
+.TextImg{width:120px ;
+         height:120px ;
+        border-radius:50% ;
+        margin-left:40% ;
+        transform: translate(-20px);
+        margin-top:5% ;
+        }      
+
+      
+
+.giga{margin-left:-80px ;}
+
+.footer{width: 100%;
+        height:60vh ;
+        background-color: rgb(23, 23, 23);}
+
+@media(max-width: 992px){
+      .media{visibility: visible;}
+.footer{display: none;}
+#icon2 {visibility: visible;}
+.card1{margin-left:50px ;}
+}
+@media(min-width: 992px)
+{
+      .media{display: none;}   
+}
